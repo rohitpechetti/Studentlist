@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+     flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(231, 235, 238);
+}
+.but{
+    background-color: rgb(19, 150, 211);
+    color: aliceblue;
+    padding: 20px;
+    /* height: 3vh; */
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(156, 3, 3);
+
+}
+.but:hover{
+    opacity: 0.6;
+
+}
+.but:active{
+    opacity: 0.5;
+    background-color:black;
+}
+.heading{
+    font-size: 40px;
+}
+#StudentList{
+    display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     flex-direction: column;
+
+
+}
